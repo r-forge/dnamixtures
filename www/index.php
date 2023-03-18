@@ -48,7 +48,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
       </div>
       <div style="clear:both"></div>
       <address>
-	by <a href="mailto:graversen@math.ku.dk">Therese Graversen</a>
+	by <a href="mailto:theg@itu.dk">Therese Graversen</a>
       </address>
 
 
@@ -92,7 +92,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	<a href="https://validator.w3.org/check?uri=https://dnamixtures.r-forge.r-project.org/"><img src="https://www.w3.org/Icons/valid-xhtml10-blue"
 								 alt="Valid XHTML 1.0 Transitional" height="31" width="88"
 								 /></a>
-	<a href="https://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdnamixtures.r-forge.r-project.org%2F&usermedium=all&vextwarning=&warning=1">
+	<a href="https://jigsaw.w3.org/css-validator/validator?lang=en;profile=css3svg;uri=https%3A%2F%2Fdnamixtures.r-forge.r-project.org%2F;usermedium=all;vextwarning=;warning=1">
 	  <img style="border:0;width:88px;height:31px"
 	       src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
 	       alt="Valid CSS!" />
