@@ -1,3 +1,10 @@
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: auto !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
 .knitr.inline {
   background-color: #f7f7f7;
   border:solid 1px #B0B0B0;

@@ -23,13 +23,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="The features of the DNAmixtures R-package include parameter-fitting, evaluation of the likelihood, prediction of genotypes, and visual diagnostics." />
     <meta name="keywords" content="DNA mixture, DNA mixtures, R-package, statistical inference, mixed profile, deconvolution, likelihood ratio, maximum likelihood, genotype, evidence, EPG, forensic genetics, DNAmixtures" />
     <meta name="google-site-verification" content="e6ukA82x3m80Gndv4ZYqjkIW9Mx-IyVdGlCG2qfDGnU" />
     <title> The DNAmixtures package </title>
     <link href="css/default.css" rel="stylesheet" type="text/css" />
-    <link href="knitr.css" rel="stylesheet" type="text/css" />
+    <link href="css/knitr.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico"/>
   </head>
 
@@ -44,7 +45,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
       </div>
       <div id="logo">
 	<!-- R-Forge Logo -->
-	<a href="http://r-forge.r-project.org/"><img src="http://<?php echo $themeroot; ?>/imagesrf/logo.png" border="0" alt="R-Forge Logo" width="192" height="54"/> </a>
+	<a href="https://r-forge.r-project.org/"><img src="http://<?php echo $themeroot; ?>/imagesrf/logo.png" border="0" alt="R-Forge Logo" width="192" height="54"/> </a>
       </div>
       <div style="clear:both"></div>
       <address>
@@ -61,6 +62,10 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	  <li><a href="?page=installation" title="" accesskey="i"
 		 <?php if ($page=="installation") echo "class=\"currentPage\"";?>>
 	      <span class="aKey">I</span>nstallation</a>
+	  </li>
+	  <li><a href="?page=DNAmixturesLite" title="" accesskey="D"
+		 <?php if ($page=="DNAmixturesLite") echo "class=\"currentPage\"";?>>
+	      <span class="aKey">D</span>NAmixturesLite</a>
 	  </li>
 	  <li><a href="?page=tutorial" title=""
 	  accesskey="e" <?php if ($page=="tutorial") echo "class=\"currentPage\"";?>>

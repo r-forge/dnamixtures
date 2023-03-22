@@ -54,8 +54,10 @@ img.plot{
 }
 
 body {
-    font-size: 100%;
+    font-size: 17px;
     font-family: "Times New Roman", serif;
+    /*font-family: Verdana,sans-serif;*/
+    line-height: 1.2;
     background: #555653;
     padding: 1em 0 1em 0;
     margin: 0;
@@ -67,7 +69,13 @@ div#wrap {
     margin: 0 auto;
     padding: 2em 2em 2em 2em;
     border-radius: 1em;
+    max-width: 150ex;
 }
+
+div#content p {
+    max-width: 100ex;
+}
+
 
 h1#projectname {
     font-size: 2.5em;
@@ -102,7 +110,7 @@ div#menu ul {
 }
 
 div#menu ul li {
-    width: 20%;
+    width: calc(100%/6);
     float: left;
     text-align: center;
 }
@@ -214,6 +222,20 @@ div#featurelist dl dd {
     text-indent: -.7em;
 }
 
+/*
+div#installDNAmixtures ol {
+    list-style-type: none;
+    counter-reset: item;
+}
+
+div#installDNAmixtures ol li:before {
+    font-size: 120%;
+    content: counter(item) ". ";
+    counter-increment: item;
+    color:  #8796c0;
+}
+*/
+
 .references{
   background: #FFFFFF;
   width: 100%;
@@ -244,8 +266,9 @@ div#featurelist dl dd {
 
 .paperdescription {
     width: 90%;
-    margin: 0 auto;
-    padding: 0.75em 0 1.5em 0;
+    max-width: 100ex;
+    margin: 0 2.5em;
+    padding: 0.5em 0 2.5em 0;
     font-style: normal;
     color: #000;
 }
@@ -263,7 +286,29 @@ div#featurelist dl dd {
     font-style: italic;
 }
 
+#log {
+    max-width: 100ex;
+}
 #log li{
     list-style-type: square;
 }
 
+div#liteannouncement {
+
+}
+
+div#liteannouncement .button {
+    background-color: #8796c0;
+    border: 1px;
+    border-radius: .25em;
+    box-shadow: 0.2em 0.1em 0.1em rgba(0,0,0,0.2), .3em .4em .1em rgba(0,0,0,0.19);
+    color: white;
+    padding: 0.75em 1.5em;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    margin:0 auto;
+    display:block;
+}

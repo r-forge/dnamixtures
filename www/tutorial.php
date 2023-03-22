@@ -6,7 +6,7 @@
 Below we demonstrate a few features
 of <span class="rpkg">DNAmixtures</span>. For a more thorough
 walk-through, see for instance the example analysis in <a href =
-"http://onlinelibrary.wiley.com/store/10.1111/rssc.12071/asset/supinfo/rssc12071-sup-0001-SuppInfo.pdf?v=1&amp;s=290479848c46713e7e040fb993a5ba9115e8d54b"
+"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jrsssc/64/1/10.1111_rssc.12071/1/rssc12071-sup-0001-suppinfo.pdf?Expires=1682434215&Signature=RSEDzTeV8UwvVkjp0Eda0MLZwpl3TOAxeJuR-eCwvjcBD5taza45UcCN8tKfKOkPcL6zb1--L8rBsKojNkdeHpvjkRxhG45DOfU1wWJ8ULBDc0DmUE9QFPVHWLB86IlA4oOd6fIbi8tUphHwbYD1IFI~yQDtbtT4L7iHSoCWF3C4CmMTa~VMg-n-S0ufOqUBr2Dh0wchcPOd1UGCfo9y96lgIwmgkzOP~Md5nmT3rh9lPETg9FkmwPNO4kmWvEfkpsiXG-FMi~Y0gUL63EWU1QsqNPEjrg-8TcQSJfqmDqZ9TdXWlez5lf95z4jvujD2HqTmmgTCL704RopYVsFbgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
 class="papertitle">Case analysis using the DNAmixtures package</a> or
 the detailed discussions in <a href="?page=references#graversen-14"
 class="paperref">Graversen (2014)</a>.
@@ -72,7 +72,7 @@ rfu.
 <p>We can plot the peak heights by</p>
 <div class="chunk" id="epgs"><div class="rcode"><div class="source"><pre class="knitr r">     <span class="hl kwd">plot</span><span class="hl std">(mixHp,</span> <span class="hl kwc">epg</span> <span class="hl std">=</span> <span class="hl num">TRUE</span><span class="hl std">,</span> <span class="hl kwc">dyecol</span> <span class="hl std">=</span> <span class="hl kwd">list</span><span class="hl std">(</span><span class="hl kwd">c</span><span class="hl std">(</span><span class="hl str">&quot;blue&quot;</span><span class="hl std">,</span> <span class="hl str">&quot;green&quot;</span><span class="hl std">,</span> <span class="hl str">&quot;black&quot;</span><span class="hl std">)))</span>
 </pre></div>
-</div><div class="rimage center"><img src="graphics/epgs-1.png" title="Observed peak heights" alt="Observed peak heights" class="plot" /></div></div>
+</div><div class="rimage center"><img src="graphics/epgs-1.png" alt="Observed peak heights" class="plot" /></div></div>
 
 <h2>Estimating model parameters</h2>
 
@@ -98,8 +98,8 @@ rfu.
 <span class="hl kwd">summary</span><span class="hl std">(var15Hp)</span>
 </pre></div>
 <div class="output"><pre class="knitr r">##             Estimate    StdErr
-## rho.1      34.237686   7.13108
-## eta.1      26.668447   5.61843
+## rho.1      34.237675   7.13108
+## eta.1      26.668456   5.61843
 ## xi.1        0.073699   0.01441
 ## phi.U1.1    0.008459   0.01853
 ## phi.K1.1    0.820501   0.02015
@@ -209,7 +209,7 @@ simulated peak heights.</p>
      <span class="hl std">oldpar</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">par</span><span class="hl std">(</span><span class="hl kwc">mfrow</span> <span class="hl std">=</span> <span class="hl kwd">c</span><span class="hl std">(</span><span class="hl num">2</span><span class="hl std">,</span><span class="hl num">5</span><span class="hl std">),</span> <span class="hl kwc">mar</span> <span class="hl std">=</span> <span class="hl kwd">c</span><span class="hl std">(</span><span class="hl num">2</span><span class="hl std">,</span><span class="hl num">2</span><span class="hl std">,</span><span class="hl num">2</span><span class="hl std">,</span><span class="hl num">0</span><span class="hl std">))</span>
      <span class="hl kwd">boxplot</span><span class="hl std">(mixHp, sims)</span>
 </pre></div>
-</div><div class="rimage center"><img src="graphics/boxplots-1.png" title="Boxplots of simulated peak heights" alt="Boxplots of simulated peak heights" class="plot" /></div><div class="rcode">
+</div><div class="rimage center"><img src="graphics/boxplots-1.png" alt="Boxplots of simulated peak heights" class="plot" /></div><div class="rcode">
 <div class="source"><pre class="knitr r">     <span class="hl kwd">par</span><span class="hl std">(oldpar)</span>
 </pre></div>
 </div></div>
@@ -228,7 +228,7 @@ distribution is adequate, the points should follow the diagonal.</p>
 
 <div class="chunk" id="qqplot"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">qqpeak</span><span class="hl std">(mixHp,</span> <span class="hl kwc">pars</span> <span class="hl std">= mlHp</span><span class="hl opt">$</span><span class="hl std">mle,</span> <span class="hl kwc">dist</span> <span class="hl std">=</span> <span class="hl str">&quot;conditional&quot;</span><span class="hl std">)</span>
 </pre></div>
-</div><div class="rimage center"><img src="graphics/qqplot-1.png" title="Quantile-quantile plot" alt="Quantile-quantile plot" class="plot" /></div></div>
+</div><div class="rimage center"><img src="graphics/qqplot-1.png" alt="Quantile-quantile plot" class="plot" /></div></div>
 
 <h3>Prequential monitor plots</h3>
 <p> A prequential monitor may be used for assessing the ability of the
@@ -246,12 +246,12 @@ occur more frequently than expected.</p>
 <div class="chunk" id="preqplotHp"><div class="rcode"><div class="source"><pre class="knitr r">     <span class="hl std">pr</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">prequential.score</span><span class="hl std">(mixHp,</span> <span class="hl kwc">pars</span> <span class="hl std">= mlHp</span><span class="hl opt">$</span><span class="hl std">mle)</span>
      <span class="hl kwd">plot</span><span class="hl std">(pr,</span> <span class="hl kwc">main</span> <span class="hl std">=</span> <span class="hl str">&quot;K1, K2, K3, and one unknown&quot;</span><span class="hl std">)</span>
 </pre></div>
-</div><div class="rimage center"><img src="graphics/preqplotHp-1.png" title="Prequential monitor for Hp" alt="Prequential monitor for Hp" class="plot" /></div></div>
+</div><div class="rimage center"><img src="graphics/preqplotHp-1.png" alt="Prequential monitor for Hp" class="plot" /></div></div>
 
 <div class="chunk" id="preqplotHd"><div class="rcode"><div class="source"><pre class="knitr r">     <span class="hl std">pr</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">prequential.score</span><span class="hl std">(mixHd,</span> <span class="hl kwc">pars</span> <span class="hl std">= mlHd</span><span class="hl opt">$</span><span class="hl std">mle)</span>
      <span class="hl kwd">plot</span><span class="hl std">(pr,</span> <span class="hl kwc">main</span> <span class="hl std">=</span> <span class="hl str">&quot;K1, K2, and two unknowns&quot;</span><span class="hl std">)</span>
 </pre></div>
-</div><div class="rimage center"><img src="graphics/preqplotHd-1.png" title="Prequential monitor for Hd" alt="Prequential monitor for Hd" class="plot" /></div></div>
+</div><div class="rimage center"><img src="graphics/preqplotHd-1.png" alt="Prequential monitor for Hd" class="plot" /></div></div>
 
 <p>In both plots, the prequential monitors stay well within the upper
   bound, indicating that the presence and absense of peaks in the EPG
@@ -278,7 +278,7 @@ that the donors are K1, K2, K3, and an unknown contributor. </p>
 <span class="hl kwd">curve</span><span class="hl std">(</span><span class="hl kwd">proflik</span><span class="hl std">(x)</span><span class="hl opt">-</span><span class="hl std">mlHp</span><span class="hl opt">$</span><span class="hl std">lik,</span> <span class="hl num">0.01</span><span class="hl std">,</span> <span class="hl num">0.2</span><span class="hl std">,</span> <span class="hl kwc">n</span><span class="hl std">=</span><span class="hl num">19</span><span class="hl std">,</span>
       <span class="hl kwc">xlab</span> <span class="hl std">=</span> <span class="hl kwd">expression</span><span class="hl std">(phi[K3]),</span> <span class="hl kwc">ylab</span> <span class="hl std">=</span> <span class="hl str">&quot;Profile likelihood&quot;</span><span class="hl std">)</span>
 </pre></div>
-</div><div class="rimage center"><img src="graphics/profilelikelihood-1.png" title="Profile likelihood for a mixture proportion" alt="Profile likelihood for a mixture proportion" class="plot" /></div></div>
+</div><div class="rimage center"><img src="graphics/profilelikelihood-1.png" alt="Profile likelihood for a mixture proportion" class="plot" /></div></div>
 
 <p> The profile likelihood illustrates clearly that the data support a
 non-zero contribution from K3.</p>

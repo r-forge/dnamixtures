@@ -1,8 +1,15 @@
 <p>
-A detailed svn log of changes can be found at the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><span class="rpkg">DNAmixtures</span> project summary page</a>.
+A detailed svn log of changes can be found at the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><span class="rpkg">DNAmixtures</span> project summary page</a>. <p> Older versions of <span class="rpkg">DNAmixtures</span> are available for download
+from <a href="src/contrib/">Rforge</a>.</p>
+
 </p>
 
 <div id="log">
+<h4> DNAmixturesLite 0.0-1 released 2023-03-15</h4>
+<ul>
+<li> Demo version that is fully based on R and does not require Hugin. </li>
+</ul>
+
 <h4> DNAmixtures 0.1-4 released 2015-01-22</h4>
 <ul>
 <li> Small fix to ensure that alleles are correctly matched based on their repeat number (Thanks to &Oslash;yvind Bleka for reporting this). </li>
