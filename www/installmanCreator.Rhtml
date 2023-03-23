@@ -1,0 +1,24 @@
+<!--begin.rcode, include = FALSE, 
+knitr::opts_chunk$set(eval = FALSE)
+#knitr::knit_theme$set('biogoo')
+knitr::opts_knit$set(self.contained=FALSE)
+end.rcode-->
+
+
+<!--begin.rcode installDNAmixtures, 
+# Dependencies from Bioconductor
+if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::install(c("graph", "Rgraphviz"))
+
+# Dependencies from GitHub 
+if (!require("devtools", quietly = TRUE)) install.packages("devtools")
+devtools::install_github("huginexpert/rhugin@HUGIN_9.0")
+
+# Dependencies from CRAN
+install.packages(c("Rsolnp","Matrix", "numDeriv"))
+
+# DNAmixtures is on R-forge
+install.packages("DNAmixtures", 
+                 repos = "https://dnamixtures.r-forge.r-project.org/",
+                 type = "source", INSTALL_opts = "--no-multiarch")  
+end.rcode-->

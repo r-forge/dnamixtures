@@ -8,13 +8,8 @@
 <p><span class="rpkg">DNAmixturesLite</span> only requires that R has already been installed.</p>
 
 <p>From within R, run the following commands to install <span class="rpkg">DNAmixturesLite</span> and its dependencies.</p>
-<p class="code">
-## Dependencies from Bioconductor </br>
-if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager")</br>
-BiocManager::install(c("graph", "Rgraphviz", "RBGL"))</br>
-</br>
-install.packages("DNAmixturesLite")</br>
-</p>
+
+<?php include "installmanCreatorLite.html"?>
 
 <h2>Key differences between DNAmixtures and its lite-version</h2>
 

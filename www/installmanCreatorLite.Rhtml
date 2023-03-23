@@ -1,0 +1,14 @@
+<!--begin.rcode, include = FALSE, 
+knitr::opts_chunk$set(eval = FALSE)
+#knitr::knit_theme$set('biogoo')
+knitr::opts_knit$set(self.contained=FALSE)
+end.rcode-->
+
+
+<!--begin.rcode installDNAmixtures, 
+## Dependencies from Bioconductor
+if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::install(c("graph", "Rgraphviz", "RBGL"))
+
+install.packages("DNAmixturesLite")
+end.rcode-->

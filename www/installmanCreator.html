@@ -1,0 +1,20 @@
+
+
+
+<div class="chunk" id="installDNAmixtures"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl com"># Dependencies from Bioconductor</span>
+<span class="hl kwa">if</span> <span class="hl std">(</span><span class="hl opt">!</span><span class="hl kwd">require</span><span class="hl std">(</span><span class="hl str">&quot;BiocManager&quot;</span><span class="hl std">,</span> <span class="hl kwc">quietly</span> <span class="hl std">=</span> <span class="hl num">TRUE</span><span class="hl std">))</span> <span class="hl kwd">install.packages</span><span class="hl std">(</span><span class="hl str">&quot;BiocManager&quot;</span><span class="hl std">)</span>
+<span class="hl std">BiocManager</span><span class="hl opt">::</span><span class="hl kwd">install</span><span class="hl std">(</span><span class="hl kwd">c</span><span class="hl std">(</span><span class="hl str">&quot;graph&quot;</span><span class="hl std">,</span> <span class="hl str">&quot;Rgraphviz&quot;</span><span class="hl std">))</span>
+
+<span class="hl com"># Dependencies from GitHub </span>
+<span class="hl kwa">if</span> <span class="hl std">(</span><span class="hl opt">!</span><span class="hl kwd">require</span><span class="hl std">(</span><span class="hl str">&quot;devtools&quot;</span><span class="hl std">,</span> <span class="hl kwc">quietly</span> <span class="hl std">=</span> <span class="hl num">TRUE</span><span class="hl std">))</span> <span class="hl kwd">install.packages</span><span class="hl std">(</span><span class="hl str">&quot;devtools&quot;</span><span class="hl std">)</span>
+<span class="hl std">devtools</span><span class="hl opt">::</span><span class="hl kwd">install_github</span><span class="hl std">(</span><span class="hl str">&quot;huginexpert/rhugin@HUGIN_9.0&quot;</span><span class="hl std">)</span>
+
+<span class="hl com"># Dependencies from CRAN</span>
+<span class="hl kwd">install.packages</span><span class="hl std">(</span><span class="hl kwd">c</span><span class="hl std">(</span><span class="hl str">&quot;Rsolnp&quot;</span><span class="hl std">,</span><span class="hl str">&quot;Matrix&quot;</span><span class="hl std">,</span> <span class="hl str">&quot;numDeriv&quot;</span><span class="hl std">))</span>
+
+<span class="hl com"># DNAmixtures is on R-forge</span>
+<span class="hl kwd">install.packages</span><span class="hl std">(</span><span class="hl str">&quot;DNAmixtures&quot;</span><span class="hl std">,</span>
+                 <span class="hl kwc">repos</span> <span class="hl std">=</span> <span class="hl str">&quot;https://dnamixtures.r-forge.r-project.org/&quot;</span><span class="hl std">,</span>
+                 <span class="hl kwc">type</span> <span class="hl std">=</span> <span class="hl str">&quot;source&quot;</span><span class="hl std">,</span> <span class="hl kwc">INSTALL_opts</span> <span class="hl std">=</span> <span class="hl str">&quot;--no-multiarch&quot;</span><span class="hl std">)</span>
+</pre></div>
+</div></div>

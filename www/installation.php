@@ -16,24 +16,7 @@
   </li>
   <li>
 <p>Now install R packages from within R (or RStudio) as follows:</p>
-
-<p class="code">
-## Dependencies from Bioconductor  <br/>
-if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager") <br/>
-BiocManager::install(c("graph", "Rgraphviz")) <br/>
- <br/>
-## Dependencies from GitHub  <br/>
-if (!require("devtools", quietly = TRUE)) install.packages("devtools") <br/>
-devtools::install_github("huginexpert/rhugin@HUGIN_9.0") <br/>
- <br/>
-## Dependencies from CRAN  <br/>
-install.packages(c("Rsolnp","Matrix", "numDeriv")) <br/>
- <br/>
-## Install DNAmixtures from R-forge  <br/>
-install.packages("DNAmixtures",  <br/>
-                 repos = "https://dnamixtures.r-forge.r-project.org/", <br/>
-                 type = "source", INSTALL_opts = "--no-multiarch")   <br/>
-</p>
+<?php include "installmanCreator.html"?>
   </li>
 </ol>
 </div>

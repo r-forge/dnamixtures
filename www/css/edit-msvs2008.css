@@ -1,0 +1,64 @@
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: auto !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #ffffff;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #000000;
+}
+.hl.str {
+  color: #a31515;
+}
+.hl.com {
+  color: #008000;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #000000;
+}
+.hl.kwa {
+  color: #0000ff;
+}
+.hl.kwb {
+  color: #0000ff;
+}
+.hl.kwc {
+  color: #2b91af;
+}
+.hl.kwd {
+  color: #000000;
+}
