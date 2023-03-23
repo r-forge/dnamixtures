@@ -23,7 +23,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="The features of the DNAmixtures R-package include parameter-fitting, evaluation of the likelihood, prediction of genotypes, and visual diagnostics." />
     <meta name="keywords" content="DNA mixture, DNA mixtures, R-package, statistical inference, mixed profile, deconvolution, likelihood ratio, maximum likelihood, genotype, evidence, EPG, forensic genetics, DNAmixtures" />

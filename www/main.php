@@ -71,14 +71,7 @@ installed:</p>
     for calling Hugin from within R</td>
   </tr>
 </table>
-<p><span class="rpkg">DNAmixtures</span> can be installed and loaded from R by:</p>
-<p class="code">
-install.packages("DNAmixtures", repos = "https://dnamixtures.r-forge.r-project.org/", <br/>
-		 type = "source", INSTALL_opts = "--no-multiarch")<br/>
-library(DNAmixtures)
-</p>
-<p> For further details on installation, see
-  the <a href="?page=installation">Installation page</a>.</p>
+<p> For an installation guide, please see <a href="?page=installation">the installation page</a>.</p>
 </div>
 
 <div id="liteannouncement">
