@@ -26,10 +26,10 @@
 <p>The package help page contains the most essential information about the model as
 well as an example analysis.</p>
 
-<p class="code">
-library(DNAmixtures) ## load the package<br/>
-help(DNAmixtures)    ## main help page
-</p>
+<div class="chunk" id="installDNAmixtures"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">library</span><span class="hl std">(DNAmixtures)</span> <span class="hl com">## load the package</span>
+<span class="hl kwd">help</span><span class="hl std">(DNAmixtures)</span>    <span class="hl com">## main help page </span>
+</pre></div>
+</div></div>
 
 <p>More example analyses can be found under <a href="?page=tutorial">Tutorials</a>.</p>
 
