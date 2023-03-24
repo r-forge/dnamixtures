@@ -1,8 +1,10 @@
 <p>
-A detailed svn log of changes can be found at the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><span class="rpkg">DNAmixtures</span> project summary page</a>. <p> Older versions of <span class="rpkg">DNAmixtures</span> are available for download
-from <a href="src/contrib/">Rforge</a>.</p>
+A detailed svn log of changes can be found at the <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><span class="rpkg">DNAmixtures</span> project summary page</a>. Older versions of <span class="rpkg">DNAmixtures</span> are available for download
+from <a href="src/contrib/">Rforge</a>.
 
 </p>
+
+<h1>Releases</h1>
 
 <div id="log">
 <h4> DNAmixturesLite 0.0-1 released 2023-03-15</h4>
