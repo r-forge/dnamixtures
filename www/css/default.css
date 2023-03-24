@@ -222,19 +222,31 @@ div#featurelist dl dd {
     text-indent: -.7em;
 }
 
-/*
-div#installDNAmixtures ol {
-    list-style-type: none;
-    counter-reset: item;
+
+div#installDNAmixtures dl{
+   margin-bottom: 1em;
+   margin-top: 0;
 }
 
-div#installDNAmixtures ol li:before {
-    font-size: 120%;
-    content: counter(item) ". ";
-    counter-increment: item;
-    color:  #8796c0;
+div#installDNAmixtures dl:last-child{
+   margin: 0;
 }
-*/
+
+div#installDNAmixtures dl dt {
+    font-weight: bold;
+    font-size: 1.4em;
+    font-style: italic;
+    color: #8796c0;
+    padding: 0em 0 0.3em 0;
+}
+
+div#installDNAmixtures dl dd {
+    padding-left: 0em;
+    padding-bottom: 1em;
+    text-indent: 0; /*-.7em;*/
+    max-width: 100ex;
+}
+
 
 .references{
   background: #FFFFFF;

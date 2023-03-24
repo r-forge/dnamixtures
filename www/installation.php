@@ -1,24 +1,27 @@
 <h1> Installing DNAmixtures </h1>
-
 <div id="installDNAmixtures">
-<ol>
-  <li>
-   <p>To install <span class="rpkg">DNAmixturesLite</span> you need the <a href="https://www.hugin.com">Hugin API</a> available on your system. 
-  If you do not have a license for Hugin, you can opt for the demo version of <span class="rpkg">DNAmixtures</span>, <a href="?page=DNAmixturesLite"><span class="rpkg">DNAmixturesLite</span></a>.</p>
-  </li>
-  <li>
-  <p>Install the statistical software <a href="https://cran.r-project.org/">R</a>. A popular integrated development environment (IDE) for R is <a href="https://posit.co/products/open-source/rstudio/">RStudio</a>.</p>
-  </li>
-  <li>
-  <p>[Windows only:] Download and install <a href="http://cran.r-project.org/bin/windows/Rtools/">RTools</a>.
+<dl>
+<dt>1) Hugin API</dt>
+<dd>
+   To install <span class="rpkg">DNAmixturesLite</span> you need the <a href="https://www.hugin.com">Hugin API</a> available on your system. 
+  If you do not have a license for Hugin, you can opt for the demo version of <span class="rpkg">DNAmixtures</span>, <a href="?page=DNAmixturesLite"><span class="rpkg">DNAmixturesLite</span></a>.
+  </dd>
+  <dt>2) R</dt>
+  <dd>
+  Install the statistical software <a href="https://cran.r-project.org/">R</a>. A popular integrated development environment (IDE) for R is <a href="https://posit.co/products/open-source/rstudio/">RStudio</a>.
+  </dd>
+  <dt>3) Rtools (Required on Windows only)</dt>
+  <dd>
+   Download and install <a href="http://cran.r-project.org/bin/windows/Rtools/">Rtools</a>.
   Accept all the defaults, in particular that Cygwin dlls are installed
-  and that the PATH variable is changed. </p>
-  </li>
-  <li>
-<p>Now install R packages from within R (or RStudio) as follows:</p>
+  and that the PATH variable is changed. 
+  </dd>
+  <dt>4) R packages</dt>
+  <dd>
+Now install R packages from within R (or RStudio) as follows:
 <?php include "installmanCreator.html"?>
-  </li>
-</ol>
+  </dd>
+</dl>
 </div>
 
 <h2> Getting started </h2>
