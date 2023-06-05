@@ -5,9 +5,7 @@
 <p>
 Below we demonstrate a few features
 of <span class="rpkg">DNAmixtures</span>. For a more thorough
-walk-through, see for instance the example analysis in <a href =
-"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jrsssc/64/1/10.1111_rssc.12071/1/rssc12071-sup-0001-suppinfo.pdf?Expires=1682434215&Signature=RSEDzTeV8UwvVkjp0Eda0MLZwpl3TOAxeJuR-eCwvjcBD5taza45UcCN8tKfKOkPcL6zb1--L8rBsKojNkdeHpvjkRxhG45DOfU1wWJ8ULBDc0DmUE9QFPVHWLB86IlA4oOd6fIbi8tUphHwbYD1IFI~yQDtbtT4L7iHSoCWF3C4CmMTa~VMg-n-S0ufOqUBr2Dh0wchcPOd1UGCfo9y96lgIwmgkzOP~Md5nmT3rh9lPETg9FkmwPNO4kmWvEfkpsiXG-FMi~Y0gUL63EWU1QsqNPEjrg-8TcQSJfqmDqZ9TdXWlez5lf95z4jvujD2HqTmmgTCL704RopYVsFbgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
-class="papertitle">Case analysis using the DNAmixtures package</a> or
+walk-through, see for instance the example analysis in <a href = "bibtex/rssc12071-sup-0001-suppinfo.pdf" class="papertitle">Case analysis using the DNAmixtures package</a> or
 the detailed discussions in <a href="?page=references#graversen-14"
 class="paperref">Graversen (2014)</a>.
 </p>
