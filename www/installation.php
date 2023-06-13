@@ -3,7 +3,7 @@
 <dl>
 <dt>1) Hugin API</dt>
 <dd>
-   To install <span class="rpkg">DNAmixturesLite</span> you need the <a href="https://www.hugin.com">Hugin API</a> available on your system. 
+   To install <span class="rpkg">DNAmixtures</span> you need the <a href="https://www.hugin.com">Hugin API</a> available on your system. 
   If you do not have a license for Hugin, you can opt for the demo version of <span class="rpkg">DNAmixtures</span>, <a href="?page=DNAmixturesLite"><span class="rpkg">DNAmixturesLite</span></a>.
   </dd>
   <dt>2) R</dt>
